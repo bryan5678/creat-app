@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import GgBtn from '../../img/google_btn.png'
-import ApBtn from '../../img/apple_btn.png'
+import ApBtn from '../../img/apple_btn.png';
+import GgBtn from '../../img/google_btn.png';
 
 
 const Banner = () => {

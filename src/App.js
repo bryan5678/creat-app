@@ -19,22 +19,11 @@ class App extends Component {
         isDark: false
     }
  
-//     componentWillMount() {
-//         document.body.classList.add("darkMode")  
-//         this.handleDarkTheme()
-
-//   }
-
-//     componentWillUnmount() {
-//         document.body.classList.remove("darkMode") 
-//         this.handleDarkTheme()
-//   }  
   
   handleDarkTheme = () => {    
     this.setState(prevState =>
         ({ isDark: !prevState.isDark }))  
 }
-    // className={this.handleDarkTheme(stt) ? "darkMode" : ""}
     render() {
         return (
         <div className={`theme ${this.state.isDark ? "darkMode" : ""}`}>
@@ -64,35 +53,4 @@ class App extends Component {
 
 export default App
 
-
-
-// import React from 'react'
-
-// const App = () => {
-//     const [isDark, setIsDark] = useState(false);
-
-//     return (
-//         <>   
-//         {/* // <div className={`theme ${this.state.isDark ? "darkMode" : ""}`}> */}
-//             <SidebarMini 
-//                 passDarkTheme={this.handleDarkTheme}
-//                 isDark={this.state.isDark}
-//             />
-//             <Header />
-//             <Cover />
-//             <Intro/>
-//             <Courses/>
-//             <Viewing/>
-//             <Banner/>
-//             <Categories/>
-//             <Students/>
-//             <Partners/>
-//             <Jobs/>
-//             <Footer/>     
-//         {/* </div> */}
-//         </>
-//     )
-// }
-
-// export default App
 

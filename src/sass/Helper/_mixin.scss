@@ -21,9 +21,7 @@
     background: $bg-hover;
     border: 1px solid $bd-hover;
 }
-// $color-bg-4
-// $color-text-4
-// $color-bg-3
+
 @mixin styleFormSearch ($bg-color, $bg-color-focus, $border-color, $color){
     .input-group{
         background-color: $bg-color;
@@ -72,17 +70,6 @@
     } 
 }
 
-// @mixin responsive($screen){
-//     @if map-has-key($map: $breakpoints, $key:$screen){
-//         $value: map-get($map: $breakpoints, $key:$screen);
-//         @media screen and (max-width: $value){
-//             @content;
-//         }
-//     }
-//     @else{
-//         @warn "`${screen}` is not exist in breakpoints"
-//     }
-// }
 
 
 @mixin responsive($screen) {

@@ -8,15 +8,15 @@ import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
-// import { viewing } from '../Layout/data';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const MySwiperViewing = (props) => {
     let cardItems2 = props.viewing.map((cardItem, index)=>{
         return (
+    // <div >
     <SwiperSlide key={index}>
-        <Card className="card--courses" key={index}>
+        <Card className="card--courses">
             <Card.Img variant="top" src={cardItem.img} alt={cardItem.alt}/>
             <Card.Body>
                 <Card.Title>{cardItem.title}</Card.Title>
@@ -48,6 +48,8 @@ const MySwiperViewing = (props) => {
             </Card.Body>
         </Card>  
     </SwiperSlide>
+    // </div>        
+    
 )})
 
     return (
@@ -94,7 +96,6 @@ const MySwiperViewing = (props) => {
                     },
                   }}
             >
-              
                 {cardItems2}
             </Swiper>
         </div>        

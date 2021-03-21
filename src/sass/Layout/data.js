@@ -1,4 +1,11 @@
+import adidas from '../../img/adidas.svg'
+import booking from '../../img/booking.svg'
 import course1 from '../../img/kh1.jpg'
+import course10 from '../../img/kh10.jpg'
+import course11 from '../../img/kh11.jpg'
+import course12 from '../../img/kh12.jpg'
+import course13 from '../../img/kh13.jpg'
+import course14 from '../../img/kh14.jpg'
 import course2 from '../../img/kh2.jpg'
 import course3 from '../../img/kh3.jpg'
 import course4 from '../../img/kh4.jpg'
@@ -6,23 +13,16 @@ import course5 from '../../img/kh5.jpg'
 import course6 from '../../img/kh6.jpg'
 import course8 from '../../img/kh8.jpg'
 import course9 from '../../img/kh9.jpg'
-import course10 from '../../img/kh10.jpg'
-import course11 from '../../img/kh11.jpg'
-import course12 from '../../img/kh12.jpg'
-import course13 from '../../img/kh13.jpg'
-import course14 from '../../img/kh14.jpg'
+import mercedes from '../../img/mercedes.svg'
+import paypal from '../../img/paypal.svg'
+import pinterest from '../../img/pinterest.svg'
 import avatar1 from '../../img/s1.jpg'
 import avatar2 from '../../img/s2.jpg'
 import avatar3 from '../../img/s3.jpg'
 import avatar4 from '../../img/s4.jpg'
 import avatar5 from '../../img/s5.jpg'
 import avatar6 from '../../img/s6.jpg'
-import booking from '../../img/booking.svg'
 import volkswagen from '../../img/volkswagen.svg'
-import mercedes from '../../img/mercedes.svg'
-import pinterest from '../../img/pinterest.svg'
-import adidas from '../../img/adidas.svg'
-import paypal from '../../img/paypal.svg'
 
 
  const development = [
@@ -396,35 +396,8 @@ const partner = [
         logo: paypal,
     },
 ]
-export {development, design, viewing, category, student, partner}
+export { development, design, viewing, category, student, partner }
 
-
-// import React, { Component } from 'react'
-// import {BrowserRouter as Router} from 'react-router-dom'
-// import { GlobalStyle } from './GlobalStyles';
-// import Hero1 from './Components/Hero/Hero';
-// import Products from './Components/Products/Products';
-// import {productData1, productData2} from './Components/Products/data'
-// import Features from './Components/Features/Features';
-// import Footer from './Components/Footer/Footer';
-
-// class App extends Component {
-//   render() {
-//     return (
-//     <Router>
-//       <GlobalStyle/>
-//       <Hero1/>
-//       <Products heading="Choose your favorite" data={productData1}/>
-//       <Features />
-//       <Products heading="Sweet Treats for You" data={productData2}/>
-//       <Footer/>
-//   </Router>
-     
-//     )
-//   }
-// }
-
-// export default App
 
 
 

@@ -16,7 +16,7 @@ const MySwiperCourses = (props) => {
     let cardItems1 = props.eventKey.map((cardItem, index)=>{
         return (
     <SwiperSlide key={index}>
-        <Card className="card--courses" key={index}>
+        <Card className="card--courses">
                     <Card.Img variant="top" src={cardItem.img} alt={cardItem.alt}/>
                     <Card.Body>
                         <Card.Title>{cardItem.title}</Card.Title>

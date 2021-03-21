@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { partner } from '../Layout/data';
 
 
 const Partners = () => {
-    // const [logo, setLogo] = React.useState()
     let items = partner.map((item, index)=>{
         return(
         <div className="partners__item" key={index}>

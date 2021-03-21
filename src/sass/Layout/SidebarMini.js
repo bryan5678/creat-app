@@ -1,28 +1,18 @@
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { FaCog } from 'react-icons/fa';
 
 class SidebarMini extends Component {
     state={
         isOpen: false,
-        // isDark: false
-
     }
-
-   
-
 
     handleToggleSidebar = () => {
         this.setState(prevState =>
              ({ isOpen: !prevState.isOpen })
     )}
 
-   
-
-
-    
     render() {
-
         return (
             <div className={`sidebarMini ${this.state.isOpen ? "is-opened" : ""}`}>
             <button className="sidebarMini__button rounded-left" onClick={this.handleToggleSidebar}>
@@ -32,10 +22,9 @@ class SidebarMini extends Component {
                 <h2>Dark Mode</h2>
                 <div className="d-flex align-items-center justify-content-between">
                     <span>Off</span>
-                    <label className="switch" for="toogle">
+                    <label className="switch" htmlFor="toogle">
                         <button type="submit" id="toogle"
                                onClick={this.props.passDarkTheme}
-                            //    checked={this.state.isDark}
                                name="isDark"
                         >
 

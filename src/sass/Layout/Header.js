@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Col, Nav, Navbar } from 'react-bootstrap';
 import { FaShoppingCart, FaTh } from 'react-icons/fa';
-import LogoBlack from '../../img/logo-coral.svg';
 import LogoWhite from '../../img/logo-coral-white.svg';
-
+import LogoBlack from '../../img/logo-coral.svg';
+import Button from '../Components/Button';
 import FormSearch from '../Components/FormSearch';
-import Button from '../Components/Button'
+
 
 class Header extends Component {
     state={
@@ -49,7 +49,7 @@ class Header extends Component {
                                     <Nav.Link as="a" href="#home">Udemy for business
                                         <div className="myNavBar__overplay">
                                             <p>Get your team access to Udemy’s top 2,500 courses anytime, anywhere.</p>
-                                            <a>Try Udemy For Business</a>
+                                            <a href="/#">Try Udemy For Business</a>
                                         </div>
                                     </Nav.Link>
                                 </Nav.Item>   
@@ -57,7 +57,7 @@ class Header extends Component {
                                     <Nav.Link as="a" href="#home">Become an instructor
                                         <div className="myNavBar__overplay">
                                             <p>Get your team access to Udemy’s top 2,500 courses anytime, anywhere.</p>
-                                            <a>Try Udemy For Business</a>
+                                            <a href="/#">Try Udemy For Business</a>
                                         </div>
                                     </Nav.Link>
                                 </Nav.Item>  

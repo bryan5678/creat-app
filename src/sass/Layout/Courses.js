@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Col, Container, Row, Tab, Tabs  } from 'react-bootstrap';
+import { Col, Container, Row, Tab, Tabs } from 'react-bootstrap';
 import MySwiperCourses from '../Components/MySwiperCourses';
-import { development, design } from './data';
+import { design, development } from './data';
 
 
 
@@ -9,7 +9,7 @@ import { development, design } from './data';
 const Courses = () => {
     const [key, setKey] = useState('development');
         return (
-        <section class="courses" >
+        <section className="courses" >
             <Container fluid style={{ width: '90%' }}>
                 <Row className="flex-column flex-md-row">
                     <Col xs={12} md={3} className="courses__left">

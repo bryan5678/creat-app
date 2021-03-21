@@ -1,8 +1,8 @@
-import React from 'react'
-import { Col, Container, Row, Nav, Dropdown, ButtonGroup  } from 'react-bootstrap';
+import React from 'react';
+import { Col, Container, Dropdown, Nav, Row } from 'react-bootstrap';
 import { FaGlobe } from 'react-icons/fa';
-import LogoBlack from '../../img/logo-coral.svg';
 import LogoWhite from '../../img/logo-coral-white.svg';
+import LogoBlack from '../../img/logo-coral.svg';
 
 
 
@@ -70,12 +70,7 @@ const Footer = (props) => {
                         >
                         English
                         </Dropdown.Toggle>
-                        {/* <DropdownButton
-                            as={ButtonGroup}
-                            id="dropdown-button-drop-up"
-                            drop='up'
-                            title="<i class="fas fa-globe"></i> English"
-                        >  */}
+                   
                         <Dropdown.Menu >
                             <Dropdown.Item eventKey="1">English</Dropdown.Item>
                             <Dropdown.Item eventKey="2">Deutsch</Dropdown.Item>
@@ -86,7 +81,6 @@ const Footer = (props) => {
                             <Dropdown.Item eventKey="7">日本語</Dropdown.Item>
                         </Dropdown.Menu>
 
-                        {/* </DropdownButton> */}
                     </Dropdown>
                 </Col>
             </Row>

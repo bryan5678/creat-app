@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { FaBullseye, FaSpinner, FaSync} from 'react-icons/fa';
+import { FaBullseye, FaSpinner, FaSync } from 'react-icons/fa';
 
 const Intro = () => {
 
