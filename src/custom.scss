@@ -1,0 +1,35 @@
+/* make the customizations */
+$theme-colors: (
+        "info": black,
+        "danger": blue,
+        "info1": #252525,
+        "color-text-5-bg": #ec5252,
+
+);
+
+// $grid-breakpoints: (
+ 
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1280px,
+//   fullHD: 1920px,
+//   4k: 3840px,
+
+// ) !default;
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px,
+//   xxl: 1250px,
+//   fullHD: 1890px,
+//   4k: 3810px,
+// ) !default;
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";

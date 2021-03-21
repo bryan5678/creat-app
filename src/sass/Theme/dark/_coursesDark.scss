@@ -1,0 +1,26 @@
+.darkMode{
+    .courses{
+        .courses__left{
+            background-color: $color-bg-dark-5;
+            h2{
+                color: $color-text-dark-1;
+            }
+            p{
+                color: $color-text-dark-2;
+            }
+        }
+        #myTab{
+            border-bottom: 1px solid $color-bg-dark-3;
+            .nav-link{
+                color: $color-text-dark-2;
+                &:hover{
+                    color: $color-text-dark-1;
+                }
+                &.active{
+                    background-color: transparent;
+
+                }
+            }   
+        }
+    }
+}

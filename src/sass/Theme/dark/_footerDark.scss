@@ -1,0 +1,53 @@
+.darkMode{
+    footer{
+        .footer__top{
+            ul{
+                .nav-item{
+                    .nav-link{
+                        color: $color-text-dark-1;
+                    }
+                }
+            } 
+            .btn-group{
+                .dropdown-menu{
+                    background-color: $color-bg-dark-5;
+                    border-color: $color-bg-dark-3;
+                    .dropdown-item{
+                        background-color: $color-bg-dark-5;
+                        color: $color-text-dark-1;
+                        &:hover{
+                            background-color: $color-bg-dark-2;
+                        }
+                    }
+                }
+            }
+
+        }
+        hr{
+            background-color: $color-bg-dark-3;
+        }
+
+        .footer__bottom{
+            span{
+                color: $color-text-dark-2;
+            }
+            img{
+                width: 110px;
+                margin-right: $mg-1;
+                &.logo-black{
+                    display: none;
+                }
+                &.logo-white{
+                    display: inline-block;
+                }
+            }
+            .nav-link{
+                color: $color-text-dark-1;
+
+            }
+        }
+    }
+}
+
+
+

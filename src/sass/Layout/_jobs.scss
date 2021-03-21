@@ -1,0 +1,15 @@
+.jobs{
+    background-color: $color-bg-5;
+
+    .jobs__items{
+
+        padding: $pd-3;
+        max-width: 450px;
+        margin: 0 auto;
+
+        h3{
+            @include styleText($color-text-1c-border, $fs-2 - 1, $fw-1)
+        }
+        
+    }
+}

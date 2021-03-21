@@ -1,0 +1,57 @@
+@import "./custom";
+
+// @import "./sass/style";
+
+// Helper
+
+@import "./sass/Helper/variables";
+@import "./sass/Helper/mixin";
+
+
+// // Vendor
+
+// // Base
+@import "./sass/Base/reset";
+@import "./sass/Base/customize";
+
+// // Layouts
+@import "./sass/Layout/header";
+@import "./sass/Layout/footer";
+@import "./sass/Layout/intro";
+@import "./sass/Layout/courses";
+@import "./sass/Layout/viewing";
+@import "./sass/Layout/banner";
+@import "./sass/Layout/categories";
+@import "./sass/Layout/students";
+@import "./sass/Layout/partners";
+@import "./sass/Layout/jobs";
+@import "./sass/Layout/sidebarMini";
+
+
+
+
+
+// // Components
+@import "./sass/Components/button";
+@import "./sass/Components/cover";
+@import "./sass/Components/card";
+
+
+// Pages
+// @import "./sass/Pages/home";
+
+// Themes
+@import "./sass/Theme/dark/resetDark";
+@import "./sass/Theme/dark/sidebarMiniDark";
+
+@import "./sass/Theme/dark/headerDark";
+@import "./sass/Theme/dark/footerDark";
+@import "./sass/Theme/dark/coursesDark";
+@import "./sass/Theme/dark/categoriesDark";
+@import "./sass/Theme/dark/studentsDark";
+@import "./sass/Theme/dark/partnersDark";
+@import "./sass/Theme/dark/jobsDark";
+
+@import "./sass/Theme/dark/buttonDark";
+@import "./sass/Theme/dark/cardDark";
+

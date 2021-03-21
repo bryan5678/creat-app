@@ -1,0 +1,15 @@
+.darkMode{
+    .button--white{
+        // @include styleButton($color-text-1d, $color-text-4, $color-text-1c-border, $fs-1, $fw-1, $pd-1 + 1, $pd-1 + 2);
+        &:hover{
+            @include hoverButton($color-text-dark-1, $color-bg-dark-2, $color-bg-dark-3);
+        }
+    }
+    .button--dropup{
+        @include styleButton($color-text-dark-1, $color-bg-dark-2, $color-bg-dark-3, $fs-0, $fw-1, $pd-0 + 1, $pd-1);
+        &:hover{
+            @include hoverButton($color-text-dark-1, $color-bg-dark-5, $color-bg-dark-3);
+        }
+    }
+
+}

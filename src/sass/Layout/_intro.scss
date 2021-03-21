@@ -1,0 +1,58 @@
+.intro{
+    background: linear-gradient(-45deg,$color-text-5-bg, $color-bg-6);
+    padding: $pd-3;
+        .intro__content{
+            width: 78%;
+            margin: 0 auto;
+            
+            .intro__item{
+               display: flex;
+               align-items: center;
+               .intro__icon{
+                  font-size: $fs-6;
+                  color: $color-text-4;
+                  margin-right: $mg-3;
+               }
+               .intro__text{
+                   p{
+                       margin-bottom: 0;
+                       &:first-child{
+                            @include styleText($color-text-4, $fs-1 + 2, $fw-2);
+                       }
+                       &:last-child{
+                            @include styleText($color-text-4, $fs-1, $fw-0);
+                        }
+                   }
+               }
+           } 
+        }
+}
+
+@include responsive("xl"){
+    .intro{
+        .intro__item{
+            .intro__icon{
+                display: none;
+            }    
+        }    
+    }
+}
+
+@include responsive("lg"){
+    .intro{
+        .intro__content{
+            @include content;
+            // text-align: right;
+            .intro__item{
+                padding-left: $pd-1;
+
+            }
+        }
+    }    
+}
+
+@include responsive("md"){
+    .intro{
+        display: none;
+    }
+}

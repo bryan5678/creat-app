@@ -1,0 +1,90 @@
+// VARIABLES
+// text
+$color-text-1a: #212529;
+$color-text-1b: #29303b;
+$color-text-1c-border: #505763;
+$color-text-1d: #686f7a;// rgba(104, 111, 122)
+$color-text-1e: #a1a7b3;
+$color-text-3-border: #007791;
+$color-text-4: #fff;
+$color-text-5-bg: #ec5252;
+$color-text-6: #007bff;
+$color-text-dark-1: #d8e2ef;
+$color-text-dark-2: #9da9bb;
+
+$color-star: #ffc107;
+
+// background
+$color-bg-1: rgba(20, 23, 28, 0.05);
+$color-bg-2: #521822;
+$color-bg-3: #dedfe0;
+$color-bg-4: #f2f3f5;
+$color-bg-5: #f7f8fa;
+$color-bg-6: #6e1a52;
+$color-bg-7: #76c5d6;
+$color-bg-dark-1: #061325;
+$color-bg-dark-2: #152e4d;
+$color-bg-dark-3: #344050;
+$color-bg-dark-4: #0e1c2f;
+$color-bg-dark-5: #132238;
+
+
+
+// border
+$color-border-1: rgba(0, 0, 0, 0.125);
+$color-border-2: rgba(20, 23, 28, 0.1);
+$color-border-3: #ced4da;
+$color-border-4: #dee2e6; // rgb(222, 226, 230)
+$color-border-5: rgba(20, 23, 28, 0.25);
+
+// font-size
+$fs-0: 13px;
+$fs-1: 15px;
+$fs-2: 20px;
+$fs-3: 24px;
+$fs-4: 36px;
+$fs-5: 40px;
+$fs-6: 50px;
+
+
+// font-weight
+$fw-0: normal;
+$fw-1: 600;
+$fw-2: 700;
+$fw-3: 900;
+
+
+// line-height
+$lh-0: 1.43;
+
+// margin
+$mg-0: 5px;
+$mg-1: 10px;
+$mg-2: 20px;
+$mg-3: 25px;
+$mg-4: 40px;
+
+// padding
+$pd-0: 5px;
+$pd-1: 10px;
+$pd-2: 15px;
+$pd-3: 20px;
+$pd-4: 30px;
+
+
+// border-radius
+$br-0: 2px;
+$br-1: 50%;
+
+$size-overplay: 15px;
+
+
+// breakpoint
+$breakpoints: (
+    "xl": 1199.98px,
+    "lg": 991.98px,
+    "md": 767.98px,
+    "sm": 575.98px,
+    "xs": 319.98px,
+);
+

@@ -1,0 +1,54 @@
+.sidebarMini{
+    width: 150px;
+    position: fixed;
+    right: 0;
+    top: 25%;
+    background-color: $color-bg-3;
+    z-index: 100000;
+    transform: translateX(101%);
+    transition: all 0.5s;
+    .sidebarMini__button{
+        @include styleButton($color-text-1b, $color-bg-3, $color-bg-3, $fs-3, $fw-0, $pd-0, $pd-3);
+        position: fixed;
+        transform: translateX(-99%);
+        outline: none;
+    }
+
+    .sidebarMini__content{
+        padding: $pd-3;
+
+        h2{
+            font-size: $fs-1;
+        }
+        .switch{
+            width: 50px;
+            background-color: $color-text-4;
+            height: 25px;
+            border-radius: 20px;
+            position: relative;
+            padding: 0 $pd-0;
+            cursor: pointer;
+            #toogle{
+               visibility: hidden;
+            }
+            .slider{
+                width: 20px;
+                height: 20px;
+                border-radius: $br-1;
+                background-color: $color-text-1b;
+                position: absolute;
+                top: 50%;
+                transform: translate(0%,-50%);
+                transition: 0.3s all;
+                &.dark{
+                    transform: translate(100%,-50%);
+                }    
+                
+            }
+            
+        }
+    }
+    &.is-opened{
+        transform: translateX(0%);
+    }
+}
