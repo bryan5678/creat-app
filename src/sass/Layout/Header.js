@@ -46,18 +46,18 @@ class Header extends Component {
                         <Navbar.Collapse id="basic-navbar-nav" className="d-block flex-grow-0 flex-lg-grow-1 flex-basis-auto">
                             <Nav className="mr-auto" as="ul">
                                 <Nav.Item as="li" className="business">
-                                    <Nav.Link as="a" href="#home">Udemy for business
+                                    <Nav.Link as="span">Udemy for business
                                         <div className="myNavBar__overplay">
                                             <p>Get your team access to Udemy’s top 2,500 courses anytime, anywhere.</p>
-                                            <a href="/#">Try Udemy For Business</a>
+                                            <Nav.Link href="#home">Try Udemy For Business</Nav.Link>
                                         </div>
                                     </Nav.Link>
                                 </Nav.Item>   
                                 <Nav.Item as="li" className="instructor">
-                                    <Nav.Link as="a" href="#home">Become an instructor
+                                    <Nav.Link as="span">Become an instructor
                                         <div className="myNavBar__overplay">
                                             <p>Get your team access to Udemy’s top 2,500 courses anytime, anywhere.</p>
-                                            <a href="/#">Try Udemy For Business</a>
+                                            <Nav.Link href="#home">Try Udemy For Business</Nav.Link>
                                         </div>
                                     </Nav.Link>
                                 </Nav.Item>  
