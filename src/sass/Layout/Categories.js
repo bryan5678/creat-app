@@ -9,7 +9,7 @@ class Categories extends Component {
             return (
                 <Col xs={12} md={6} lg={4} xl={3} key={index} >
                     <a href="/#" className="categories__items">
-                        <i className={`fa ${item.icon}`}></i>
+                       <span className="categories__icons">{item.icon} </span>
                         <span>  {item.text}</span>
                     </a>
                     
