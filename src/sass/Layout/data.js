@@ -297,30 +297,29 @@ const viewing = [
 const category = [
     {
         text: 'Development',      
-        icon: 'fa-code', 
-        i: "FaCode"   
+        icon: <FaCode/>   
     },
     {
         text: 'Business',
-        icon: 'fa-bar-chart',
+        icon: <FaChartBar/>
     },  {
         text: 'IT and Software',
-        icon:  'fa-laptop',
+        icon: <FaLaptop/>
     },  {
         text: 'Design',
-        icon: 'fa-pencil',
+        icon: <FaPencilAlt/>
     },  {
         text: 'Marketing',
-        icon: 'fa-bullseye',
+        icon: <FaBullseye/>
     },  {
         text: 'Personal Development',
-        icon:  'fa-book',
+        icon: <FaBook/>
     },  {
         text: 'Photography',
-        icon: 'fa-camera-retro',
+        icon: <FaCameraRetro/>
     },  {
         text: 'Music',
-        icon:  'fa-music'
+        icon: <FaMusic/>
     },
 
 ]
