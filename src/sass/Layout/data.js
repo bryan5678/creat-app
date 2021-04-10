@@ -23,6 +23,7 @@ import avatar4 from '../../img/s4.jpg'
 import avatar5 from '../../img/s5.jpg'
 import avatar6 from '../../img/s6.jpg'
 import volkswagen from '../../img/volkswagen.svg'
+import { FaCode, FaChartBar, FaLaptop, FaPencilAlt, FaBullseye, FaBook, FaCameraRetro, FaMusic} from 'react-icons/fa';
 
 
  const development = [
